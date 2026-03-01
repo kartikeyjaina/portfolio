@@ -3,9 +3,9 @@ import MacWindow from "./MacWindow";
 import "./resume.scss";
 import { Document, Page } from "react-pdf";
 
-const Resume = () => {
+const Resume = ({windowName,setWindowsState}) => {
   return (
-    <MacWindow>
+    <MacWindow windowName={windowName} setWindowsState={setWindowsState}>
       <div className="resume-window">
         <embed src="/resume.pdf" frameBorder="0"></embed>
       </div>
