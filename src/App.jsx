@@ -5,6 +5,7 @@ import Nav from './components/Nav'
 import Github from './components/windows/github'
 import Note from './components/windows/Note'
 import Resume from './components/windows/Resume'
+import Spotify from './components/windows/Spotify'
 function App() {
   const [count, setCount] = useState(0)
 

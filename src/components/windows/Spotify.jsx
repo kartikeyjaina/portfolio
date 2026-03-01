@@ -1,13 +1,13 @@
 import React from "react";
 import MacWindow from "./MacWindow";
-
+import "./spotify.scss";
 const Spotify = () => {
   return (
-    <MacWindow>
+    <MacWindow width="25vw">
       <div className="spotify-window">
         <iframe
+          style={{ borderRadius: "12px" }}
           data-testid="embed-iframe"
-          style="border-radius:12px"
           src="https://open.spotify.com/embed/playlist/7M1N680X9nfMlGhUSiX96A?utm_source=generator&theme=0"
           width="100%"
           height="352"
