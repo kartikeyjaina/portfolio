@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/seed/project1/600/400",
+    "title": "E-Commerce Dashboard",
+    "description": "A responsive admin dashboard for managing products, orders, and analytics with real-time updates.",
+    "tags": ["React", "Node.js", "Express", "MongoDB", "Chart.js"],
+    "repoLink": "https://github.com/yourusername/ecommerce-dashboard",
+    "demoLink": "https://ecommerce-dashboard-demo.vercel.app"
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/seed/project2/600/400",
+    "title": "Task Management App",
+    "description": "A drag-and-drop task manager that allows users to organize projects, set deadlines, and collaborate in real time.",
+    "tags": ["Next.js", "TypeScript", "Firebase", "Tailwind CSS"],
+    "repoLink": "https://github.com/yourusername/task-manager",
+    "demoLink": "https://task-manager-demo.vercel.app"
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/seed/project3/600/400",
+    "title": "Social Media API",
+    "description": "RESTful API for a social media platform supporting authentication, posts, comments, and likes.",
+    "tags": ["Node.js", "Express", "PostgreSQL", "JWT", "Docker"],
+    "repoLink": "https://github.com/yourusername/social-media-api",
+    "demoLink": "https://social-media-api-docs.onrender.com"
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/seed/project4/600/400",
+    "title": "Portfolio Website",
+    "description": "Personal developer portfolio showcasing projects, skills, and contact form with email integration.",
+    "tags": ["React", "Vite", "EmailJS", "CSS3"],
+    "repoLink": "https://github.com/yourusername/portfolio-website",
+    "demoLink": "https://yourportfolio.vercel.app"
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/seed/project5/600/400",
+    "title": "Real-Time Chat Application",
+    "description": "A real-time chat app with private messaging, group chats, and online presence indicators.",
+    "tags": ["React", "Socket.io", "Node.js", "Redis", "MongoDB"],
+    "repoLink": "https://github.com/yourusername/realtime-chat-app",
+    "demoLink": "https://realtime-chat-demo.vercel.app"
+  }
+]
