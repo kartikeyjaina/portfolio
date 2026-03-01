@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import "./app.scss"
-import Dock from './components/Dock'
-import Nav from './components/Nav'
-import Github from './components/windows/github'
-import Note from './components/windows/Note'
-import Resume from './components/windows/Resume'
-import Spotify from './components/windows/Spotify'
-function App() {
-  const [count, setCount] = useState(0)
+import { useState } from "react";
+import "./app.scss";
+import Dock from "./components/Dock";
+import Nav from "./components/Nav";
+import Github from "./components/windows/github";
+import Note from "./components/windows/Note";
+import Resume from "./components/windows/Resume";
+import Spotify from "./components/windows/Spotify";
+import Cli from "./components/windows/Cli";
 
+function App() {
   return (
     <main>
       <Nav />
@@ -17,8 +17,9 @@ function App() {
       <Note />
       <Resume />
       <Spotify />
-    </main> 
-  )
+      <Cli />
+    </main>
+  );
 }
 
-export default App
+export default App;
