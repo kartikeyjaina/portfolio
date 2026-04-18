@@ -10,7 +10,6 @@ import Cli from "./components/windows/Cli";
 
 function App() {
   const [windowsState, setWindowsState] = useState({
-    github: false,
     note: false,
     resume: false,
     Spotify: false,
@@ -20,9 +19,7 @@ function App() {
     <main>
       <Nav />
       <Dock windowsState={windowsState} setWindowsState={setWindowsState} />
-      {windowsState.github && (
-        <Note windowName="github" setWindowsState={setWindowsState} />
-      )}
+      
       {windowsState.note && (
         <Note windowName="note" setWindowsState={setWindowsState} />
       )}
