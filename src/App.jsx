@@ -7,7 +7,6 @@ import Note from "./components/windows/Note";
 import Resume from "./components/windows/Resume";
 import Spotify from "./components/windows/Spotify";
 import Cli from "./components/windows/Cli";
-import github from "./components/windows/github";
 
 function App() {
   const [windowsState, setWindowsState] = useState({
@@ -22,7 +21,7 @@ function App() {
       <Nav />
       <Dock windowsState={windowsState} setWindowsState={setWindowsState} />
       {windowsState.github && (
-        <Github windowName="github" setWindowsState={setWindowsState} />
+        <Note windowName="github" setWindowsState={setWindowsState} />
       )}
       {windowsState.note && (
         <Note windowName="note" setWindowsState={setWindowsState} />
